@@ -489,9 +489,9 @@ except KeyError:
 try:
     TITLE_NAME = getConfig('TITLE_NAME')
     if len(TITLE_NAME) == 0:
-        TITLE_NAME = 'Z-Mirror'
+        TITLE_NAME = 'NTudum Mirror'
 except KeyError:
-    TITLE_NAME = 'Z-Mirror'
+    TITLE_NAME = 'NTudum Mirror'
 try:
     TOKEN_PICKLE_URL = getConfig('TOKEN_PICKLE_URL')
     if len(TOKEN_PICKLE_URL) == 0:
